@@ -1,1 +1,1 @@
-declare module 'browser-signature';
+declare module 'browserSignature';

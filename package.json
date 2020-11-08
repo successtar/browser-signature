@@ -39,7 +39,8 @@
   "homepage": "https://github.com/successtar/browser-signature#readme",
   "files": [
     "*.d.ts",
-    "dist"
+    "dist",
+    "src"
   ],
   "types": "browser-signature.d.ts"
 }
