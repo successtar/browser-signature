@@ -4,16 +4,16 @@
   "description": "Browser unique signature (Fingerprint) generator",
   "source": "src/index.js",
   "main": "dist/browser-signature.js",
-  "module": "dist/browser-signature.m.js",
-  "unpkg": "dist/browser-signature.umd.js",
+  "module": "dist/browser-signature.m.js", 
+  "unpkg": "dist/browser-signature.umd.js",    
   "dependencies": {},
   "devDependencies": {
     "microbundle": "^0.12.4"
   },
   "scripts": {
     "test": "echo 'No test specified'",
-    "build": "microbundle",
-    "dev": "microbundle watch"
+    "build": "microbundle",        
+    "dev": "microbundle watch"  
   },
   "repository": {
     "type": "git",
@@ -24,12 +24,22 @@
     "signature",
     "fingerprint",
     "unique",
+    "tiny",
     "identity"
   ],
-  "author": "Hammed Olalekan Osanyinpeju",
+  "author": {
+    "name": "Hammed Olalekan Osanyinpeju",
+    "email": "osanyinpejuhammed35@gmail.com",
+    "url": "https://successtar.github.io"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/successtar/browser-signature/issues"
   },
-  "homepage": "https://github.com/successtar/browser-signature#readme"
+  "homepage": "https://github.com/successtar/browser-signature#readme",
+  "files": [
+    "*.d.ts",
+    "dist"
+  ],
+  "types": "browser-signature.d.ts"
 }
