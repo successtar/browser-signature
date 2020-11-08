@@ -35,9 +35,9 @@ console.log("Current Browser Unique Signature: ", signature);
 
 ## From CDN
     
-    <script src="https://cdn.jsdelivr.net/npm/browser-signature@1.0.3/dist/browser-signature.umd.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/browser-signature@1.0.4/dist/browser-signature.umd.js" ></script>
     or
-    <script src="https://unpkg.com/browser-signature@1.0.3/dist/browser-signature.umd.js"></script>
+    <script src="https://unpkg.com/browser-signature@1.0.4/dist/browser-signature.umd.js"></script>
     
 
 ## From CDN Usage
