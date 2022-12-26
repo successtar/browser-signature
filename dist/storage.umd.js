@@ -1,0 +1,2 @@
+!function(e,t){"object"==typeof exports&&"undefined"!=typeof module?module.exports=t():"function"==typeof define&&define.amd?define(t):(e=e||self).browserSignature=t()}(this,function(){return function(e){var t=localStorage.getItem("device-unique-signature")||"";if(t)return t;for(var n=0;n<5;n++)t+=Math.random().toString(36).slice(2);return localStorage.setItem("device-unique-signature",t),t}});
+//# sourceMappingURL=storage.umd.js.map
