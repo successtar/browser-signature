@@ -1,6 +1,6 @@
 {
   "name": "browser-signature",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Browser unique signature (Fingerprint) generator",
   "source": [
     "src/index.js",
