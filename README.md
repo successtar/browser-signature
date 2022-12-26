@@ -64,7 +64,7 @@ console.log("Current Browser Unique Signature: ", signature);
 ## Usage with Local Storage Implementation
 
 ```js
-import browserSignature from 'browser-signature/storage';
+import browserSignature from 'browser-signature/dist/storage';
 
 const signature = browserSignature();
 
