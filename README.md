@@ -1,9 +1,11 @@
 # Browser Signature
-Browser unique signature (Fingerprint) generator
+Browser unique signature (Fingerprint) generator 
 
 This is a simple and tiny (<1kb) package for generating unique user browser signature or fingerprint.
 
 The package allow you to identify user online using their browser unique signature
+
+[![NPM](https://img.shields.io/npm/v/browser-signature.svg)](https://www.npmjs.com/package/browser-signature)
 
 The package have two implementations:
 
@@ -26,6 +28,7 @@ The package have two implementations:
 * **ModernJS**: `dist/storage.modern.js`
 * **UMD**: `dist/storage.umd.js`
 
+ 
 
 ## Install
 
